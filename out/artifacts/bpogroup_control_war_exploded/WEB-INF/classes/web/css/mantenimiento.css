@@ -1,0 +1,134 @@
+
+div#container-chosen{
+    width: 500px;
+    margin: 10px auto;
+}
+
+div#container-loader{
+    background-color: #66CEFF;
+    width: 1000px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+div#container-loader #img-loader{
+    display: none;
+}
+
+
+#tcAsistencia{
+    width: 1000px;
+    table-layout: fixed;
+    border: 1px solid black;
+    margin: 50px auto;
+
+}
+
+#tcAsistencia span{
+    margin: auto;
+}
+
+#tcAsistencia td{
+    width: 500px;
+
+}
+
+#tcAsistencia label{
+    width: 150px;
+    margin-left: 50px;
+}
+
+
+#tcAsistencia button[type="button"]{
+    margin: auto;
+}
+
+
+div#container{
+    background-color: #dddddd;
+    width: 1000px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#tAsistencia{
+    width: 1000px;
+    table-layout: fixed;
+}
+
+#tAsistencia tr:hover{
+    background: #FCF;
+}
+
+#tAsistencia th{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1em;
+    border: 1px solid #ffffff;
+}
+
+#tAsistencia td{
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    font-size: 1em;
+    border: 1px solid #ffffff;
+}
+
+#tAsistencia td,#tAsistencia th{
+    text-align: center;
+    vertical-align: middle;
+}
+
+#tAsistencia #tHeader{
+    height: 40px;
+    background-color:#66CEFF;
+}
+
+#tAsistencia #tdBig{
+    width: 250px;
+    overflow: hidden;
+}
+
+#tAsistencia #tdSmall{
+    width: 150px;
+    overflow: hidden;
+}
+
+#tAsistencia input[type="date"]{
+    width: 130px;
+    margin: auto;
+}
+
+
+/*
+Chosen
+*/
+
+.chosen-rtl .chosen-drop {
+    left: -9000px;
+}
+
+.input-group {
+    width: 110px;
+    margin-bottom: 10px;
+    height: 34px;
+}
+
+input[type="text"] {
+    height: 34px;
+}
+
+.pull-center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+@media (max-width: 767px) {
+    .pull-center {
+        float: right;
+    }
+}

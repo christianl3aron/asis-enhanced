@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path=""/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Tomcat 7.0.591"/>
+	<classpathentry exported="true" kind="lib" path="web/libs/jstl.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/libs/log4j-1.2.15.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/libs/mysql-connector-java-5.1.13-bin.jar"/>
+	<classpathentry exported="true" kind="lib" path="web/libs/standard.jar"/>
+	<classpathentry kind="lib" path="web/libs/commons-logging-1.2.jar"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.USER_LIBRARY/commons-logging-1.2"/>
+	<classpathentry kind="output" path="out/production/bpogroup_control"/>
+</classpath>
